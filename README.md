@@ -1,6 +1,7 @@
 # Meshtastic-Thing
 Weird Meshtastic prototype I build.
 For everyone wanting to replicate this (for reasons beyond me), here is some information.
+Keep in mind that this instruction requires some skill level. If you have questions, open an issue!
 
 Steps:
 1. Get a Board like the one shown in the AliExpress listing (could also be black, doesn't matter. Open an issue if you're unsure)
