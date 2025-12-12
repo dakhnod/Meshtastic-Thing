@@ -1,6 +1,14 @@
 # Meshtastic-Thing
 
-## Version 1
+## Version 1/2
+
+
+![PXL_20251211_155032571](https://github.com/user-attachments/assets/c47eb414-1e22-427c-8cad-419ce5a02012)
+
+![PXL_20251211_155038437](https://github.com/user-attachments/assets/7803a01b-8ef0-48f6-98f6-17a02556b33a)
+
+![PXL_20251211_155054919](https://github.com/user-attachments/assets/1119504d-044b-4768-9f67-68f086a3d036)
+
 
 This board is a bit cleaner. It is composed of
 - an esp32c3 super mini board
