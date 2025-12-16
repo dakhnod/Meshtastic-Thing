@@ -403,14 +403,14 @@
   )
 
 
-
   (no_connect (at 152.4 127) (uuid 0658e80d-7514-4a24-bbe4-6b6d3a5b986f))
-  (no_connect (at 129.54 102.87) (uuid 2b2f3e75-5cd1-4bcf-ab3d-45b519d26849))
+  (no_connect (at 129.54 100.33) (uuid 2b2f3e75-5cd1-4bcf-ab3d-45b519d26849))
   (no_connect (at 129.54 107.95) (uuid 62529f36-0696-4857-b3f4-62fdf460a707))
   (no_connect (at 152.4 129.54) (uuid 7226f813-cf6a-4924-afd8-0001be936137))
   (no_connect (at 129.54 105.41) (uuid 7e92f0c1-539e-4e3f-b339-6b9813d115b7))
   (no_connect (at 152.4 132.08) (uuid bf0c8383-ddcc-4b71-974e-989531f2f9a6))
   (no_connect (at 152.4 134.62) (uuid cd07516d-3a6f-4199-a3d9-ef0ee97edd13))
+  (no_connect (at 129.54 97.79) (uuid fc38251d-ed12-4283-918e-8e457b2d2264))
 
   (label "SPI_MISO" (at 149.86 97.79 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -464,7 +464,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e45f1afd-efb3-48f7-a94e-62817ab75ef0)
   )
-  (label "DIO0" (at 129.54 97.79 180)
+  (label "DIO0" (at 129.54 102.87 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f78bf5cd-0397-4c0b-9ca6-c767efdebda4)
   )
