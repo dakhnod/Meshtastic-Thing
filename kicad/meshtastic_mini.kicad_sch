@@ -1278,6 +1278,16 @@
 		(at 129.54 97.79)
 		(uuid "fc38251d-ed12-4283-918e-8e457b2d2264")
 	)
+	(label "RESET"
+		(at 129.54 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0bca53d1-275e-4c1b-88b8-41dfc2003cf1")
+	)
 	(label "SPI_MISO"
 		(at 149.86 97.79 0)
 		(effects
@@ -1387,16 +1397,6 @@
 			(justify left bottom)
 		)
 		(uuid "b84c5e07-48d1-4be9-aaea-82e7ab5ad216")
-	)
-	(label "RESET"
-		(at 149.86 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c14ae7ac-5f4b-463b-8aa5-7937d6de3913")
 	)
 	(label "SPI_NSS"
 		(at 127 129.54 180)
@@ -1900,7 +1900,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 118.11 105.41 0)
+		(at 161.29 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1909,7 +1909,7 @@
 		(fields_autoplaced yes)
 		(uuid "59d31ce2-ed0a-411b-910b-abaeaacd4e7f")
 		(property "Reference" "D3"
-			(at 117.7926 109.22 90)
+			(at 161.6074 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1918,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 115.2526 109.22 90)
+			(at 164.1474 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1927,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 118.11 105.41 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 105.41 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 105.41 0)
+			(at 161.29 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2300,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 105.41 270)
+		(at 165.1 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2309,7 +2309,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8260a9a-0a3a-4662-9001-c08f81d9e02d")
 		(property "Reference" "#PWR0108"
-			(at 107.95 105.41 0)
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2318,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 105.4099 90)
+			(at 163.83 107.9501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 105.41 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 105.41 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 105.41 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2435,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 125.73 105.41 270)
+		(at 153.67 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2444,7 +2444,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4483fe9-5880-4a8a-b7fa-dd66f025bec9")
 		(property "Reference" "R3"
-			(at 127.0001 107.95 0)
+			(at 152.3999 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2453,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 124.4601 107.95 0)
+			(at 154.9399 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2462,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 125.73 103.632 90)
+			(at 153.67 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 105.41 0)
+			(at 153.67 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2480,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 105.41 0)
+			(at 153.67 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
